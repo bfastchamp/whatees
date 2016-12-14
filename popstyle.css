@@ -1,0 +1,16 @@
+body {
+	    background-image: url("https://photos.smugmug.com/2016/MC-Golf-Tournament-Group/i-vc8wZ7T/0/S/56-S.jpg");
+	    background-position: 50% 50%;
+	    background-repeat: repeat;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
