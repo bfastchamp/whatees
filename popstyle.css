@@ -12,6 +12,17 @@ h1 {
     font-size: 500%;
 }
 
+.header img {
+  width: 100px;
+  height: 100px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
 p {
     font-family: verdana;
     font-size: 20px;
