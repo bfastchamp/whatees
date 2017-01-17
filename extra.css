@@ -1,0 +1,54 @@
+@-webkit-keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+blink {
+  -webkit-animation: blink 2s steps(1, start) infinite;
+  animation: blink 2s steps(1, start) infinite;
+}
+#money-link{
+	color:yellow;
+	font-size:30px;
+	font-weight: bold;
+}
+
+canvas{
+	display:block;
+}
+#money, #money-disp{
+	font-size:60px;
+	font-family:sans-serif;
+	font-weight:bold;
+	color:gold;
+	text-shadow:0 5px 3px rgba(0,0,0,0.5);
+	animation:breeze 1s infinite ease;
+	float:left;
+} 
+@keyframes breeze{
+	0% {  font-size:60px;}
+	50% {  font-size:70px;}
+	100% {  font-size:60px;}
+}
+.m-block{
+	width:240px;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+.money2{
+	float:right;
+}
+#money-disp{position:absolute;left:40%;top:60%;display: none;}
